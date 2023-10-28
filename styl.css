@@ -1,0 +1,36 @@
+
+
+body {
+    background: linear-gradient(-45deg, #2652A1, #3061AF, #204394, #1F4E9A, #184180);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    height: 100vh;
+    margin: 0;
+    font-size: 15px;
+   
+   
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.card-body{
+
+border: 3px solid yellow;
+background-color: grey;
+color: yellow;
+
+}
+
+
+.tres{
+color: white !important;
+
+}
